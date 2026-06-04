@@ -1,8 +1,12 @@
-# Hi there, I'm Nithyashree G V 👋
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=32&pause=1000&color=0F172A&center=true&vCenter=true&width=760&lines=Hi+there%2C+I'm+Nithyashree+G+V;Frontend+Developer+%7C+AI+%26+Data+Science" />
+</div>
 
-🎓 AI & Data Science student | HTML · CSS · JS
-💡 Building the web, one project at a time
-🚀 Open to frontend internships & collaborations
+<p align="center">
+  🎓 AI & Data Science student | HTML · CSS · JS<br/>
+  💡 Building modern, responsive web experiences<br/>
+  🚀 Open to frontend internships & collaborations
+</p>
 
 ---
 
@@ -11,6 +15,11 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Web Development](https://img.shields.io/badge/Web%20Development-4caf50?style=for-the-badge&logo=html5&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-2563eb?style=for-the-badge&logo=microsoft-power-bi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
