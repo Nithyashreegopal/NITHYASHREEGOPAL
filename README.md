@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  🎓 AI & Data Science student | HTML · CSS · JS<br/>
+  🎓 AI & Data Science student | Aspiring Developer<br/>
   💡 Building modern, responsive web experiences<br/>
   🚀 Open to frontend internships & collaborations
 </p>
@@ -22,6 +22,7 @@
 ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-2563eb?style=for-the-badge&logo=microsoft-power-bi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
