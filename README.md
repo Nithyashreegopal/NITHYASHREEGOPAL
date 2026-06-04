@@ -1,40 +1,49 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0f172a,100:111827&height=180&section=header&text=Nithyashree%20G%20V&fontSize=45&fontColor=ffffff&desc=Frontend%20Developer%20%7C%20AI%20%26%20DS%20Student&descSize=16&descColor=a5b4fc&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=neon&color=0:0b1220,100:111827&height=180&section=header&text=Nithyashree%20G%20V&fontSize=48&fontColor=ffffff&desc=Frontend%20Developer%20%7C%20AI%20%26%20DS&descSize=14&descColor=93c5fd&animation=fadeIn" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=a5b4fc&center=true&vCenter=true&width=680&lines=Professional+frontend+developer.;Building+responsive+web+experiences.;Focused+on+accessibility+and+performance." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=93c5fd&center=true&vCenter=true&width=680&lines=Clean+UI.+Fast+performance.;Professional+frontend+builds.;Ready+for+internship+opportunities." />
 </div>
 
 ---
 
-## About
+### About me
 
-I am **Nithyashree G V**, an AI & Data Science student from Coimbatore, India 🇮🇳.
-I build clean, responsive web interfaces using **HTML**, **CSS**, and **JavaScript**.
-I am currently preparing for frontend internships and improving my skills in **React** and **Tailwind CSS**.
+A focused frontend developer with AI & Data Science background. I build responsive and accessible web interfaces using **HTML**, **CSS**, and **JavaScript**.
 
 ---
 
-## Skills
+### What I do
 
-- HTML
-- CSS
-- JavaScript
-- React
-- Tailwind CSS
-- Git
+- Develop responsive frontend layouts
+- Create user-friendly web interfaces
+- Improve web performance and accessibility
+- Learn React and Tailwind CSS
 
 ---
 
-## Projects
+### Skills
+
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML-ff5722?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</div>
+
+---
+
+### Projects
 
 - **NoteVault** — responsive note-taking web app for fast idea capture.
-- **Bus Tracking System** — campus bus tracking interface with live updates.
+- **Bus Tracking System** — campus bus tracking interface with live route updates.
 
 ---
 
-## Contact
+### Connect with me
 
 <div align="center">
   <a href="https://www.linkedin.com/in/nithyashree-gv-42905b323/">
@@ -51,5 +60,5 @@ I am currently preparing for frontend internships and improving my skills in **R
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wavy&color=0:0f172a,100:111827&height=100&section=footer&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=wavy&color=0:0f172a,100:111827&height=90&section=footer&animation=fadeIn" width="100%" />
 </div>
