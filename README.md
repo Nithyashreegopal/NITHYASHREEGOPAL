@@ -54,7 +54,7 @@ Vibe     : Where data meets design 💡
   </tr>
 </table>
 
-> 🌱 Also levelling up with **React**, **Tailwind CSS** & **Python** on the side!
+
 
 ---
 
@@ -109,5 +109,5 @@ Vibe     : Where data meets design 💡
 </div>
 
 <div align="center">
-  <sub>✦ Crafted with 💜 by Nithyashree · <em>"Where data meets design — building the web, one project at a time."</em> ✦</sub>
+  <em>"Where data meets design — building the web, one project at a time."</em> ✦</sub>
 </div>
