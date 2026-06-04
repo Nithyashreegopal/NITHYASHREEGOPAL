@@ -1,10 +1,20 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=0F172A&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Nithyashree+G+V" />
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0f172a,100:111827&height=170&section=header&text=Nithyashree%20G%20V&fontSize=48&fontColor=ffffff&desc=Frontend%20Developer%20%7C%20AI%20%26%20DS&descSize=14&descColor=a5b4fc&animation=fadeIn" width="100%" />
 </div>
 
-🎓 AI & Data Science student | HTML · CSS · JS
-💡 Building the web, one project at a time
-🚀 Open to frontend internships & collaborations
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=a5b4fc&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Nithyashree+G+V;Frontend+Developer;AI+%26+Data+Science+Student" />
+</div>
+
+<p align="center">
+  Building responsive web applications with clean design, strong user experience, and modern frontend tools.
+</p>
+
+---
+
+## About
+
+I am an AI & Data Science student focused on frontend development. I create polished, accessible web interfaces using **HTML**, **CSS**, **JavaScript**, and **React**.
 
 ---
 
