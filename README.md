@@ -1,20 +1,29 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0f172a,100:111827&height=180&section=header&text=Nithyashree%20G%20V&fontSize=50&fontColor=ffffff&desc=Frontend%20Developer%20%7C%20AI%20%26%20DS%20Student&descSize=16&descColor=94a3b8&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=shiny&color=0:0f172a,100:111827&height=200&section=header&text=Nithyashree%20G%20V&fontSize=55&fontColor=ffffff&desc=Frontend%20Developer%20%7C%20AI%20%26%20Data%20Science&descSize=16&descColor=cbd5e1&animation=fadeIn" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=94a3b8&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Nithyashree+G+V.;I+build+modern+frontend+experiences.;Clean+UI+%7C+Responsive+design+%7C+Fast+performance" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=94a3b8&center=true&vCenter=true&width=700&lines=Crafting+responsive+frontend+experiences.;Blending+design+with+data+thinking.;Building+clean+interfaces+for+real+users." />
 </div>
 
 ---
 
-## About Me
+## About
 
-I create polished, accessible web interfaces using HTML, CSS, and JavaScript. I combine frontend design with AI and data science thinking to deliver interfaces that look great and behave reliably.
+I build elegant frontend solutions with a focus on accessibility, visual clarity, and fast delivery. My work combines solid web fundamentals with modern tooling to create interfaces that are simple and reliable.
 
 ---
 
-## Core Skills
+## Highlights
+
+- Responsive UI development
+- Component-driven web design
+- Performance-first mindset
+- Clean, maintainable code
+
+---
+
+## Tech Stack
 
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
@@ -33,15 +42,15 @@ I create polished, accessible web interfaces using HTML, CSS, and JavaScript. I 
   <tr>
     <td width="50%" valign="top">
       <h3>NoteVault</h3>
-      <p>A minimal note-taking app built for smooth writing and quick access on desktop and mobile.</p>
-      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-      <p><a href="https://github.com/NITHYASHREEGOPAL/NoteVault">Project Link</a></p>
+      <p>A polished note-taking web app that prioritizes workflow efficiency and responsiveness.</p>
+      <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+      <p><a href="https://github.com/NITHYASHREEGOPAL/NoteVault">View on GitHub</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>Bus Tracking System</h3>
-      <p>A live bus tracking web interface designed for campus commuters with route visibility and updates.</p>
-      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-      <p><a href="https://github.com/NITHYASHREEGOPAL/bus-tracking-system">Project Link</a></p>
+      <p>A campus transit tracker with live updates and clear route visualization.</p>
+      <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+      <p><a href="https://github.com/NITHYASHREEGOPAL/bus-tracking-system">View on GitHub</a></p>
     </td>
   </tr>
 </table>
@@ -51,8 +60,8 @@ I create polished, accessible web interfaces using HTML, CSS, and JavaScript. I 
 ## GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NITHYASHREEGOPAL&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a78bfa&icon_color=a78bfa" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NITHYASHREEGOPAL&theme=midnight-purple&hide_border=true&background=0D1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NITHYASHREEGOPAL&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a78bfa&icon_color=a78bfa" width="45%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NITHYASHREEGOPAL&theme=midnight-purple&hide_border=true&background=0D1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa" width="45%" />
 </div>
 
 ---
@@ -68,5 +77,5 @@ I create polished, accessible web interfaces using HTML, CSS, and JavaScript. I 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:111827&height=100&section=footer&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=wavy&color=0:0f172a,100:111827&height=110&section=footer&animation=fadeIn" width="100%" />
 </div>
