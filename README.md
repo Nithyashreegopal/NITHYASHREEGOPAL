@@ -80,17 +80,6 @@ Vibe     : Where data meets design 💡
 
 ---
 
-## 📊 &nbsp; GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NITHYASHREEGOPAL&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a78bfa&icon_color=a78bfa" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NITHYASHREEGOPAL&theme=midnight-purple&hide_border=true&background=0D1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa" width="48%"/>
-</div>
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NITHYASHREEGOPAL&theme=react-dark&hide_border=true&bg_color=0D1117&color=a78bfa&line=a78bfa&point=ffffff&area=true" width="95%"/>
-</div>
-
----
 
 ## 📬 &nbsp; How to reach me?
 
