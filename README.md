@@ -37,6 +37,9 @@
 > A web-based bus tracking system to monitor real-time bus locations.
 > **Tech used:** HTML · CSS · JavaScript
 
+### 🔹 [E-Commerce Website](https://github.com/Nithyashreegopal/e-commerce)
+> A full-stack e-commerce web application with user authentication, product management, shopping cart, and secure database integration.
+> **Tech used:** Flask · HTML · CSS · Bootstrap · MySQL · REST API
 ---
 
 
