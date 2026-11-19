@@ -1,6 +1,5 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nithyashreegopal/Nithyashreegopal/main/assets/banner.svg" width="100%" alt="Nithyashree G V - AI & Data Science Undergraduate" />
-
   <br/>
   <br/>
 
@@ -84,27 +83,6 @@ I am seeking a **Data Analyst or Machine Learning internship** where I can apply
 | **🚌 Real-Time Bus Tracking System** | Web platform for tracking buses, routes and stops with estimated arrival information. | Python, Flask, MySQL, JavaScript | [Repository](https://github.com/Nithyashreegopal/bus-tracking-system) |
 | **🛒 PressMart E-Commerce System** | Full-stack store with product management, user authentication and database integration. | Flask, MySQL, HTML, CSS, Bootstrap | [Repository](https://github.com/Nithyashreegopal/e-commerce) |
 
----
-
-## Approach to Data
-
-```mermaid
-flowchart LR
-    A([Raw Data]) --> B[Clean]
-    B --> C[Analyse]
-    C --> D[Model]
-    D --> E[Visualise]
-    E --> F([Decision])
-```
-
-| Stage | Focus |
-|:--|:--|
-| **Clean** | Handle missing values, duplicates and outliers with Python and Pandas |
-| **Analyse** | Exploratory analysis and aggregation using SQL and NumPy |
-| **Model** | Apply Scikit-learn models where they add value |
-| **Visualise** | Present insights through Power BI dashboards and charts |
-
----
 
 ## Currently Developing
 
