@@ -1,11 +1,14 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=30&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Nithyashree+G+V+%F0%9F%91%8B;AI+%26+Data+Science+Student;Aspiring+Data+Analyst;Python+%7C+SQL+%7C+Power+BI+%7C+ML" alt="Typing animation" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=180&section=header&text=Nithyashree%20G%20V&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Student%20%7C%20Aspiring%20Data%20Analyst&descSize=17&descAlignY=60" alt="Header banner" width="100%" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=24&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Python+%7C+SQL+%7C+Power+BI+%7C+Machine+Learning;Turning+data+into+insights;Building+real-world+applications" alt="Typing animation" />
 
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Nithyashreegopal&label=Profile%20Views&color=2563eb&style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/Nithyashreegopal?style=for-the-badge&color=2563eb&logo=github)
+![Status](https://img.shields.io/badge/Open%20to-Internships-16a34a?style=for-the-badge)
 
 </div>
 
@@ -15,85 +18,91 @@
 
 I'm a **third-year B.Tech student in Artificial Intelligence & Data Science** who enjoys turning raw data into clear insights and building practical, real-world applications.
 
-- 🎓 Pursuing B.Tech in Artificial Intelligence & Data Science
 - 📊 Focused on **Data Analytics**, **Machine Learning** and data-driven problem solving
 - 🐍 Working with **Python**, **SQL** and **Power BI**
 - 🌐 Building full-stack applications with **Flask**, **MySQL** and modern web technologies
 - 🌱 Currently strengthening my Data Analytics and Machine Learning skills
-- 🎯 **Open to Data Analyst and Machine Learning internship opportunities**
+- 🎯 **Looking for Data Analyst and Machine Learning internship opportunities**
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 💻 Programming Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=py,java,js" alt="Programming Languages" />
-</p>
+<div align="center">
 
-### 📊 Data Analytics & Machine Learning
-<p>
-  <img src="https://skillicons.dev/icons?i=powerbi,pandas,numpy,sklearn" alt="Data and ML" />
-</p>
+<table>
+  <tr>
+    <th align="left" width="260">Category</th>
+    <th align="left">Technologies</th>
+  </tr>
+  <tr>
+    <td><b>💻 Programming Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=py,java,js&theme=light" alt="Python, Java, JavaScript" /></td>
+  </tr>
+  <tr>
+    <td><b>📊 Data Analytics &amp; Visualization</b></td>
+    <td><img src="https://skillicons.dev/icons?i=powerbi,pandas,numpy&theme=light" alt="Power BI, Pandas, NumPy" /></td>
+  </tr>
+  <tr>
+    <td><b>🤖 Machine Learning</b></td>
+    <td><img src="https://skillicons.dev/icons?i=sklearn&theme=light" alt="Scikit-learn" /></td>
+  </tr>
+  <tr>
+    <td><b>🗄️ Databases</b></td>
+    <td><img src="https://skillicons.dev/icons?i=mysql&theme=light" alt="MySQL" /></td>
+  </tr>
+  <tr>
+    <td><b>🌐 Full-Stack Development</b></td>
+    <td><img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,flask&theme=light" alt="HTML, CSS, JavaScript, Bootstrap, Flask" /></td>
+  </tr>
+  <tr>
+    <td><b>🔧 Tools &amp; Platforms</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,vscode&theme=light" alt="Git, GitHub, VS Code" /></td>
+  </tr>
+</table>
 
-### 🗄️ Databases
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql" alt="Databases" />
-</p>
+</div>
 
-### 🌐 Full-Stack Web Development
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,flask" alt="Web Development" />
-</p>
+<details>
+<summary><b>📋 View skills as text</b></summary>
 
-### 🔧 Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Tools" />
-</p>
+- **Languages:** Python, Java, JavaScript
+- **Data Analytics:** SQL, Power BI, Pandas, NumPy, Data Cleaning, EDA, Data Visualization
+- **Machine Learning:** Scikit-learn, Classification, Model Evaluation
+- **Databases:** MySQL
+- **Web Development:** HTML, CSS, JavaScript, Bootstrap, Flask
+- **Tools:** Git, GitHub, VS Code
 
----
-
-## 📈 Skills at a Glance
-
-| Area | Skills |
-|------|--------|
-| **Programming** | Python, Java, JavaScript |
-| **Data Analytics** | SQL, Power BI, Pandas, NumPy, Data Cleaning, Data Visualization |
-| **Machine Learning** | Scikit-learn, Classification, Model Evaluation |
-| **Full-Stack Development** | HTML, CSS, JavaScript, Bootstrap, Flask |
-| **Databases** | MySQL |
-| **Tools** | Git, GitHub, VS Code |
+</details>
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🚑 AI Ambulance Assistance System
-An AI-powered healthcare monitoring system that analyses patient vital signs and classifies health risk levels to support faster, better-informed emergency response.
+<!-- Add a repo link in each "Links" cell once ready, e.g. [🔗 Code](https://github.com/Nithyashreegopal/REPO-NAME) -->
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-### 🚌 Real-Time Bus Tracking System
-A web-based platform for tracking buses, routes and stops, with estimated arrival information to help commuters plan their journeys.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-### 🛒 PressMart – E-Commerce System
-A full-stack e-commerce application featuring product management, user authentication and database integration.
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+<table>
+  <tr>
+    <th align="left">Project</th>
+    <th align="left">Description</th>
+    <th align="left">Tech Stack</th>
+  </tr>
+  <tr>
+    <td><b>🚑 AI Ambulance Assistance System</b></td>
+    <td>Analyses patient vital signs and classifies health risk levels to support faster, better-informed emergency response.</td>
+    <td>Python, Flask, Machine Learning, SQL</td>
+  </tr>
+  <tr>
+    <td><b>🚌 Real-Time Bus Tracking System</b></td>
+    <td>Tracks buses, routes and stops, with estimated arrival information to help commuters plan their journeys.</td>
+    <td>Python, Flask, MySQL, HTML, CSS, JavaScript</td>
+  </tr>
+  <tr>
+    <td><b>🛒 PressMart – E-Commerce System</b></td>
+    <td>Full-stack e-commerce app with product management, user authentication and database integration.</td>
+    <td>Flask, MySQL, HTML, CSS, Bootstrap</td>
+  </tr>
+</table>
 
 ---
 
@@ -105,20 +114,7 @@ A full-stack e-commerce application featuring product management, user authentic
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nithyashreegopal&show_icons=true&theme=tokyonight&hide_border=true" height="160" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nithyashreegopal&layout=compact&theme=tokyonight&hide_border=true" height="160" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Nithyashreegopal&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
----
-
-## 🤝 Connect With Me
+## 🤝 Let's Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nithyashree-gv-42905b323/">
@@ -132,3 +128,5 @@ A full-stack e-commerce application featuring product management, user authentic
 <p align="center">
   <i>Learning continuously, building consistently, and growing with technology. 🚀</i>
 </p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=100&section=footer" alt="Footer banner" width="100%" />
