@@ -1,14 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=180&section=header&text=Nithyashree%20G%20V&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Student%20%7C%20Aspiring%20Data%20Analyst&descSize=17&descAlignY=60" alt="Header banner" width="100%" />
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=24&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Python+%7C+SQL+%7C+Power+BI+%7C+Machine+Learning;Turning+data+into+insights;Building+real-world+applications" alt="Typing animation" />
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Nithyashreegopal&label=Profile%20Views&color=2563eb&style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/Nithyashreegopal?style=for-the-badge&color=2563eb&logo=github)
-![Status](https://img.shields.io/badge/Open%20to-Internships-16a34a?style=for-the-badge)
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=30&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Nithyashree+G+V+%F0%9F%91%8B;AI+%26+Data+Science+Student;Aspiring+Data+Analyst;Python+%7C+SQL+%7C+Power+BI+%7C+ML" alt="Typing animation" />
 
 </div>
 
@@ -18,91 +10,79 @@
 
 I'm a **third-year B.Tech student in Artificial Intelligence & Data Science** who enjoys turning raw data into clear insights and building practical, real-world applications.
 
-- 📊 Focused on **Data Analytics**, **Machine Learning** and data-driven problem solving
-- 🐍 Working with **Python**, **SQL** and **Power BI**
-- 🌐 Building full-stack applications with **Flask**, **MySQL** and modern web technologies
-- 🌱 Currently strengthening my Data Analytics and Machine Learning skills
-- 🎯 **Looking for Data Analyst and Machine Learning internship opportunities**
+-  Focused on **Data Analytics**, **Machine Learning** and data-driven problem solving
+-  Working with **Python**, **SQL** and **Power BI**
+-  Building full-stack applications with **Flask**, **MySQL** and modern web technologies
+-  Currently strengthening my Data Analytics and Machine Learning skills
+- **Looking for Data Analyst and Machine Learning internship opportunities**
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+### 💻 Programming Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-<table>
-  <tr>
-    <th align="left" width="260">Category</th>
-    <th align="left">Technologies</th>
-  </tr>
-  <tr>
-    <td><b>💻 Programming Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=py,java,js&theme=light" alt="Python, Java, JavaScript" /></td>
-  </tr>
-  <tr>
-    <td><b>📊 Data Analytics &amp; Visualization</b></td>
-    <td><img src="https://skillicons.dev/icons?i=powerbi,pandas,numpy&theme=light" alt="Power BI, Pandas, NumPy" /></td>
-  </tr>
-  <tr>
-    <td><b>🤖 Machine Learning</b></td>
-    <td><img src="https://skillicons.dev/icons?i=sklearn&theme=light" alt="Scikit-learn" /></td>
-  </tr>
-  <tr>
-    <td><b>🗄️ Databases</b></td>
-    <td><img src="https://skillicons.dev/icons?i=mysql&theme=light" alt="MySQL" /></td>
-  </tr>
-  <tr>
-    <td><b>🌐 Full-Stack Development</b></td>
-    <td><img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,flask&theme=light" alt="HTML, CSS, JavaScript, Bootstrap, Flask" /></td>
-  </tr>
-  <tr>
-    <td><b>🔧 Tools &amp; Platforms</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,vscode&theme=light" alt="Git, GitHub, VS Code" /></td>
-  </tr>
-</table>
+### 📊 Data Analytics & Visualization
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 
-</div>
+### 🤖 Machine Learning
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
-<details>
-<summary><b>📋 View skills as text</b></summary>
+### 🗄️ Databases
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-- **Languages:** Python, Java, JavaScript
-- **Data Analytics:** SQL, Power BI, Pandas, NumPy, Data Cleaning, EDA, Data Visualization
-- **Machine Learning:** Scikit-learn, Classification, Model Evaluation
-- **Databases:** MySQL
-- **Web Development:** HTML, CSS, JavaScript, Bootstrap, Flask
-- **Tools:** Git, GitHub, VS Code
+### 🌐 Full-Stack Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-</details>
+### 🔧 Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
-<!-- Add a repo link in each "Links" cell once ready, e.g. [🔗 Code](https://github.com/Nithyashreegopal/REPO-NAME) -->
+<!-- Add a repo link in each project once ready, e.g. [🔗 View Code](https://github.com/Nithyashreegopal/REPO-NAME) -->
 
-<table>
-  <tr>
-    <th align="left">Project</th>
-    <th align="left">Description</th>
-    <th align="left">Tech Stack</th>
-  </tr>
-  <tr>
-    <td><b>🚑 AI Ambulance Assistance System</b></td>
-    <td>Analyses patient vital signs and classifies health risk levels to support faster, better-informed emergency response.</td>
-    <td>Python, Flask, Machine Learning, SQL</td>
-  </tr>
-  <tr>
-    <td><b>🚌 Real-Time Bus Tracking System</b></td>
-    <td>Tracks buses, routes and stops, with estimated arrival information to help commuters plan their journeys.</td>
-    <td>Python, Flask, MySQL, HTML, CSS, JavaScript</td>
-  </tr>
-  <tr>
-    <td><b>🛒 PressMart – E-Commerce System</b></td>
-    <td>Full-stack e-commerce app with product management, user authentication and database integration.</td>
-    <td>Flask, MySQL, HTML, CSS, Bootstrap</td>
-  </tr>
-</table>
+### 🚑 AI Ambulance Assistance System
+AI-powered healthcare monitoring system that analyses patient vital signs and classifies health risk levels to support faster, better-informed emergency response.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+### 🚌 Real-Time Bus Tracking System
+Web-based system for tracking buses, routes and stops, with estimated arrival information to help commuters plan their journeys.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+### 🛒 PressMart – E-Commerce System
+Full-stack e-commerce application with product management, user authentication and database integration.
+
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
 ---
 
@@ -111,6 +91,15 @@ I'm a **third-year B.Tech student in Artificial Intelligence & Data Science** wh
 - 📊 Building Power BI dashboards and strengthening SQL for analytics
 - 🤖 Deepening my understanding of Machine Learning algorithms
 - 🧪 Practising data cleaning, exploratory data analysis (EDA) and visualization
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nithyashreegopal&show_icons=true&theme=tokyonight&hide_border=true" height="160" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nithyashreegopal&layout=compact&theme=tokyonight&hide_border=true" height="160" alt="Top Languages" />
+</div>
 
 ---
 
@@ -128,5 +117,3 @@ I'm a **third-year B.Tech student in Artificial Intelligence & Data Science** wh
 <p align="center">
   <i>Learning continuously, building consistently, and growing with technology. 🚀</i>
 </p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=100&section=footer" alt="Footer banner" width="100%" />
