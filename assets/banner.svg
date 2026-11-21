@@ -1,139 +1,189 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Nithyashree G V - AI and Data Science Undergraduate, Aspiring Data Analyst">
-  <defs>
-    <clipPath id="round"><rect width="1200" height="360" rx="22"/></clipPath>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#2563eb"/>
-    </linearGradient>
-    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#2563eb"/>
-    </linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1e293b" flood-opacity="0.18"/>
-    </filter>
-  </defs>
-
-  <style>
-    text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
-    .fade { animation: fade 1s ease both; }
-    .d1 { animation-delay: .2s; } .d2 { animation-delay: .5s; } .d3 { animation-delay: .8s; } .d4 { animation-delay: 1.1s; }
-    .b { transform-box: fill-box; transform-origin: bottom; animation: grow 1.1s cubic-bezier(.2,.8,.2,1) both; }
-    .line { stroke-dasharray: 400; animation: draw 2s ease .8s both; }
-    .donut { stroke-dasharray: 110 176; animation: ring 1.6s ease .6s both; }
-    .float { animation: float 5s ease-in-out infinite; }
-    .steam { animation: steam 2.6s ease-in-out infinite; }
-    .spark { animation: twinkle 2.4s ease-in-out infinite; }
-    .sway { transform-box: fill-box; transform-origin: bottom center; animation: sway 4s ease-in-out infinite; }
-    @keyframes fade  { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes grow  { from { transform: scaleY(0); } to { transform: scaleY(1); } }
-    @keyframes draw  { from { stroke-dashoffset: 400; } to { stroke-dashoffset: 0; } }
-    @keyframes ring  { from { stroke-dasharray: 0 176; } to { stroke-dasharray: 110 176; } }
-    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-    @keyframes steam { 0% { opacity: 0; transform: translateY(4px); } 50% { opacity: .8; } 100% { opacity: 0; transform: translateY(-8px); } }
-    @keyframes twinkle { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
-    @keyframes sway  { 0%,100% { transform: rotate(-2deg); } 50% { transform: rotate(2deg); } }
-  </style>
-
-  <g clip-path="url(#round)">
-    <rect width="1200" height="360" fill="#ffffff"/>
-
-    <!-- soft background blobs -->
-    <circle cx="905" cy="185" r="200" fill="#e0f2fe"/>
-    <circle cx="1130" cy="50" r="95" fill="#ede9fe"/>
-    <circle cx="640" cy="320" r="80" fill="#dcfce7"/>
-    <circle cx="60" cy="40" r="60" fill="#f1f5f9"/>
-
-    <!-- sparkles -->
-    <g fill="#2563eb">
-      <path class="spark" d="M700 60 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
-      <path class="spark" style="animation-delay:.8s" d="M1150 150 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z"/>
-      <path class="spark" style="animation-delay:1.4s" d="M840 40 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z"/>
-    </g>
-
-    <!-- LEFT: text -->
-    <g>
-      <text class="fade d1" x="72" y="104" fill="#2563eb" font-size="16" font-weight="700" letter-spacing="5">HELLO, I'M</text>
-      <rect class="fade d1" x="72" y="116" width="46" height="5" rx="2.5" fill="#2563eb"/>
-      <text class="fade d2" x="70" y="186" fill="url(#name)" font-size="58" font-weight="800">Nithyashree G V</text>
-      <text class="fade d3" x="72" y="230" fill="#334155" font-size="23" font-weight="600">AI &amp; Data Science Undergraduate</text>
-      <text class="fade d3" x="72" y="262" fill="#64748b" font-size="18">Aspiring Data Analyst  ·  Machine Learning Enthusiast</text>
-      <g class="fade d4" font-size="15" font-weight="700">
-        <rect x="72"  y="285" width="88"  height="34" rx="17" fill="#dbeafe"/><text x="116" y="307" text-anchor="middle" fill="#1d4ed8">Python</text>
-        <rect x="170" y="285" width="68"  height="34" rx="17" fill="#e0f2fe"/><text x="204" y="307" text-anchor="middle" fill="#0369a1">SQL</text>
-        <rect x="248" y="285" width="104" height="34" rx="17" fill="#fef3c7"/><text x="300" y="307" text-anchor="middle" fill="#92400e">Power BI</text>
-        <rect x="362" y="285" width="58"  height="34" rx="17" fill="#ede9fe"/><text x="391" y="307" text-anchor="middle" fill="#6d28d9">ML</text>
-      </g>
-    </g>
-
-    <!-- RIGHT: illustration -->
-    <!-- desk -->
-    <ellipse cx="910" cy="318" rx="270" ry="10" fill="#cbd5e1" opacity="0.5"/>
-    <rect x="640" y="300" width="540" height="8" rx="4" fill="#94a3b8"/>
-
-    <!-- laptop -->
-    <g filter="url(#shadow)">
-      <rect x="760" y="70" width="300" height="190" rx="14" fill="#1e293b"/>
-      <polygon points="738,262 1082,262 1062,284 758,284" fill="#cbd5e1"/>
-      <rect x="880" y="262" width="60" height="6" rx="3" fill="#94a3b8"/>
-    </g>
-    <rect x="772" y="82" width="276" height="166" rx="6" fill="#f8fafc"/>
-    <rect x="772" y="82" width="276" height="20" rx="6" fill="#e2e8f0"/>
-    <circle cx="785" cy="92" r="3.5" fill="#fb7185"/><circle cx="797" cy="92" r="3.5" fill="#fbbf24"/><circle cx="809" cy="92" r="3.5" fill="#34d399"/>
-
-    <!-- bars -->
-    <g>
-      <rect class="b" style="animation-delay:.3s" x="792" y="196" width="16" height="40"  rx="3" fill="url(#bar)"/>
-      <rect class="b" style="animation-delay:.4s" x="814" y="172" width="16" height="64"  rx="3" fill="url(#bar)"/>
-      <rect class="b" style="animation-delay:.5s" x="836" y="184" width="16" height="52"  rx="3" fill="url(#bar)"/>
-      <rect class="b" style="animation-delay:.6s" x="858" y="148" width="16" height="88"  rx="3" fill="url(#bar)"/>
-      <rect class="b" style="animation-delay:.7s" x="880" y="164" width="16" height="72"  rx="3" fill="url(#bar)"/>
-      <rect class="b" style="animation-delay:.8s" x="902" y="126" width="16" height="110" rx="3" fill="url(#bar)"/>
-    </g>
-    <line x1="786" y1="236" x2="930" y2="236" stroke="#cbd5e1"/>
-    <polyline class="line" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
-      points="800,184 822,160 844,170 866,132 888,148 910,112"/>
-
-    <!-- donut + text lines -->
-    <circle cx="988" cy="150" r="28" fill="none" stroke="#e2e8f0" stroke-width="12"/>
-    <circle class="donut" cx="988" cy="150" r="28" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round" transform="rotate(-90 988 150)"/>
-    <rect x="952" y="196" width="72" height="7" rx="3.5" fill="#cbd5e1"/>
-    <rect x="952" y="210" width="52" height="7" rx="3.5" fill="#e2e8f0"/>
-    <rect x="952" y="224" width="62" height="7" rx="3.5" fill="#e2e8f0"/>
-
-    <!-- floating tech badges -->
-    <g class="float" style="animation-delay:0s">
-      <circle cx="718" cy="115" r="30" fill="#3776AB" filter="url(#shadow)"/>
-      <text x="718" y="123" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">Py</text>
-    </g>
-    <g class="float" style="animation-delay:.9s">
-      <circle cx="1105" cy="95" r="32" fill="#0ea5e9" filter="url(#shadow)"/>
-      <text x="1105" y="103" text-anchor="middle" fill="#fff" font-size="21" font-weight="800">SQL</text>
-    </g>
-    <g class="float" style="animation-delay:1.6s">
-      <circle cx="1112" cy="198" r="28" fill="#F2C811" filter="url(#shadow)"/>
-      <text x="1112" y="206" text-anchor="middle" fill="#1e293b" font-size="21" font-weight="800">BI</text>
-    </g>
-    <g class="float" style="animation-delay:2.3s">
-      <circle cx="712" cy="225" r="28" fill="#7c3aed" filter="url(#shadow)"/>
-      <text x="712" y="233" text-anchor="middle" fill="#fff" font-size="21" font-weight="800">ML</text>
-    </g>
-
-    <!-- mug with steam -->
-    <g>
-      <rect x="660" y="274" width="26" height="26" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
-      <path d="M686 280 q10 0 10 8 q0 8 -10 8" fill="none" stroke="#94a3b8" stroke-width="2"/>
-      <path class="steam" d="M668 268 q-4 -6 0 -12" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
-      <path class="steam" style="animation-delay:1.2s" d="M678 268 q-4 -6 0 -12" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
-    </g>
-
-    <!-- plant -->
-    <g>
-      <g class="sway">
-        <ellipse cx="1140" cy="262" rx="9" ry="24" fill="#22c55e" transform="rotate(-25 1140 262)"/>
-        <ellipse cx="1156" cy="262" rx="9" ry="28" fill="#16a34a" transform="rotate(18 1156 262)"/>
-        <ellipse cx="1148" cy="254" rx="8" ry="26" fill="#4ade80"/>
-      </g>
-      <path d="M1132 286 h32 l-4 14 h-24z" fill="#f97316"/>
-    </g>
-  </g>
-  <rect x="0.5" y="0.5" width="1199" height="359" rx="22" fill="none" stroke="#e2e8f0"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" xmlns:c2pa="http://c2pa.org/manifest"><svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" xmlns:c2pa="http://c2pa.org/manifest">
+<style>
+.bg{fill:#ffffff}
+.letter{font:700 29px "Segoe UI",Arial,sans-serif;fill:#ffffff}
+.hey{font:300 44px "Segoe UI",Arial,sans-serif;fill:#1f2d3d;animation:fadeText 9s ease-in-out infinite}
+.sub{font:600 24px "Segoe UI",Arial,sans-serif;fill:#334155;animation:fadeText 9s ease-in-out infinite;animation-delay:.6s}
+.inner{transform-box:fill-box;transform-origin:center;animation:assemble 9s cubic-bezier(.2,.8,.2,1) infinite;animation-fill-mode:backwards}
+.sub2{font:18px "Segoe UI",Arial,sans-serif;fill:#64748b;animation:fadeText 9s ease-in-out infinite;animation-delay:.9s}
+.deco{fill:#e8f0fb}
+.float{animation:floaty 5s ease-in-out infinite}
+@keyframes assemble{
+0%{transform:translate(var(--dx),var(--dy)) rotate(var(--r)) scale(.3);opacity:0}
+10%{opacity:1}
+28%{transform:translate(0,0) rotate(0deg) scale(1.1)}
+33%{transform:translate(0,0) rotate(0deg) scale(1)}
+86%{transform:translate(0,0) rotate(0deg) scale(1);opacity:1}
+100%{transform:translate(0,-30px) rotate(0deg) scale(.9);opacity:0}
+}
+@keyframes fadeText{0%{opacity:0}12%{opacity:1}86%{opacity:1}100%{opacity:0}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+</style>
+<rect class="bg" width="1000" height="300"/>
+<g class="float"><path class="deco" d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" transform="translate(40,30) rotate(-12)"/></g>
+<g class="float" style="animation-delay:-2s"><path class="deco" d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" transform="translate(900,200) rotate(15) scale(1.2)"/></g>
+<g class="float" style="animation-delay:-3.5s"><path class="deco" d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" transform="translate(70,215) rotate(8) scale(.8)"/></g>
+<g class="float" style="animation-delay:-1s"><path class="deco" d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" transform="translate(880,25) rotate(-8) scale(.7)"/></g>
+<text class="hey" x="500.0" y="62" text-anchor="middle">Hey! I am</text>
+<g class="tile" style="--dx:327px;--dy:132px;--r:-163deg;animation-delay:0.0s" transform="translate(73.0,92)">
+<g class="inner" style="--dx:327px;--dy:132px;--r:-163deg;animation-delay:0.0s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#3b73bd" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">N</text>
+</g></g>
+<g class="tile" style="--dx:-437px;--dy:-249px;--r:-91deg;animation-delay:0.25s" transform="translate(135.0,92)">
+<g class="inner" style="--dx:-437px;--dy:-249px;--r:-91deg;animation-delay:0.25s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#4a86d4" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">I</text>
+</g></g>
+<g class="tile" style="--dx:-294px;--dy:227px;--r:-165deg;animation-delay:0.5s" transform="translate(197.0,92)">
+<g class="inner" style="--dx:-294px;--dy:227px;--r:-165deg;animation-delay:0.5s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#2f5f9e" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">T</text>
+</g></g>
+<g class="tile" style="--dx:-296px;--dy:135px;--r:89deg;animation-delay:0.75s" transform="translate(259.0,92)">
+<g class="inner" style="--dx:-296px;--dy:135px;--r:89deg;animation-delay:0.75s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#5b9be6" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">H</text>
+</g></g>
+<g class="tile" style="--dx:-364px;--dy:-221px;--r:-175deg;animation-delay:1.0s" transform="translate(321.0,92)">
+<g class="inner" style="--dx:-364px;--dy:-221px;--r:-175deg;animation-delay:1.0s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#3b73bd" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">Y</text>
+</g></g>
+<g class="tile" style="--dx:-273px;--dy:-194px;--r:14deg;animation-delay:1.25s" transform="translate(383.0,92)">
+<g class="inner" style="--dx:-273px;--dy:-194px;--r:14deg;animation-delay:1.25s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#4a86d4" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">A</text>
+</g></g>
+<g class="tile" style="--dx:-310px;--dy:166px;--r:-148deg;animation-delay:1.5s" transform="translate(445.0,92)">
+<g class="inner" style="--dx:-310px;--dy:166px;--r:-148deg;animation-delay:1.5s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#2f5f9e" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">S</text>
+</g></g>
+<g class="tile" style="--dx:-440px;--dy:-260px;--r:164deg;animation-delay:1.75s" transform="translate(507.0,92)">
+<g class="inner" style="--dx:-440px;--dy:-260px;--r:164deg;animation-delay:1.75s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#5b9be6" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">H</text>
+</g></g>
+<g class="tile" style="--dx:-280px;--dy:-247px;--r:148deg;animation-delay:2.0s" transform="translate(569.0,92)">
+<g class="inner" style="--dx:-280px;--dy:-247px;--r:148deg;animation-delay:2.0s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#3b73bd" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">R</text>
+</g></g>
+<g class="tile" style="--dx:410px;--dy:236px;--r:-15deg;animation-delay:2.25s" transform="translate(631.0,92)">
+<g class="inner" style="--dx:410px;--dy:236px;--r:-15deg;animation-delay:2.25s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#4a86d4" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">E</text>
+</g></g>
+<g class="tile" style="--dx:377px;--dy:-182px;--r:-159deg;animation-delay:2.5s" transform="translate(693.0,92)">
+<g class="inner" style="--dx:377px;--dy:-182px;--r:-159deg;animation-delay:2.5s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#2f5f9e" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">E</text>
+</g></g>
+<g class="tile" style="--dx:518px;--dy:207px;--r:173deg;animation-delay:2.75s" transform="translate(785.0,92)">
+<g class="inner" style="--dx:518px;--dy:207px;--r:173deg;animation-delay:2.75s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#5b9be6" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">G</text>
+</g></g>
+<g class="tile" style="--dx:397px;--dy:-150px;--r:62deg;animation-delay:3.0s" transform="translate(877.0,92)">
+<g class="inner" style="--dx:397px;--dy:-150px;--r:62deg;animation-delay:3.0s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#3b73bd" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">V</text>
+</g></g>
+<text class="sub" x="500.0" y="205" text-anchor="middle">AI &amp; Data Science Undergraduate</text>
+<text class="sub2" x="500.0" y="240" text-anchor="middle">Aspiring Data Analyst  ·  Machine Learning Enthusiast</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo2NTUzODUyMi1hNWEzLTQ0OTUtYmVlMy02Yjc4MmRlODUzODUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaHkQ3cMEbm/YDMQhlyX32fgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0MDE3ZGViNC02MmQ5LTQ3N2YtODgxNS1kNWQyOTkzZDg4YThscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoDmAZPfZAZy1fN07dHgINOgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggnwJJiTEv5DRyuEYCFUBqlkY3ug8I8xJAXpC6xwnWBe2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaN8d0IkNHSJrxOUjkFS8RK0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIHz1i2jLJlznSu+OSxJT9of2JAGOY/pj8M3BPGTa3/hBZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GR5vZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjY1NTM4NTIyLWE1YTMtNDQ5NS1iZWUzLTZiNzgyZGU4NTM4NS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmE3MDk2YWZkLTVkMTgtNDJmMS04ZTM4LWVjNWExMGNkNzJjYnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCfAkmJMS/kNHK4RgIVQGqWRje6DwjzEkBekLrHCdYF7aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggB7Q6xgQxpGAdk/wLrr775KUvepAUhmvYxrHNYcP8mmaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggp0JRhBqd/fL7ZMcuBKhUD4CI53fRLbljsVvjSbp9ZJp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJwrQa2iqmYLm0dzrJ9dg0FvzYZ2yadbmF6XsxN4inpZppiKvWmC4rRFoptECfqawstFZCuOsExFIssovalUQ8w=</c2pa:manifest></metadata></svg>
+<style>
+.bg{fill:#ffffff}
+.letter{font:700 29px "Segoe UI",Arial,sans-serif;fill:#ffffff}
+.hey{font:300 44px "Segoe UI",Arial,sans-serif;fill:#1f2d3d;animation:fadeText 9s ease-in-out infinite}
+.sub{font:600 24px "Segoe UI",Arial,sans-serif;fill:#334155;animation:fadeText 9s ease-in-out infinite;animation-delay:.6s}
+.inner{transform-box:fill-box;transform-origin:center;animation:assemble 9s cubic-bezier(.2,.8,.2,1) infinite;animation-fill-mode:backwards}
+.sub2{font:18px "Segoe UI",Arial,sans-serif;fill:#64748b;animation:fadeText 9s ease-in-out infinite;animation-delay:.9s}
+.deco{fill:#e8f0fb}
+.float{animation:floaty 5s ease-in-out infinite}
+@keyframes assemble{
+0%{transform:translate(var(--dx),var(--dy)) rotate(var(--r)) scale(.3);opacity:0}
+10%{opacity:1}
+28%{transform:translate(0,0) rotate(0deg) scale(1.1)}
+33%{transform:translate(0,0) rotate(0deg) scale(1)}
+86%{transform:translate(0,0) rotate(0deg) scale(1);opacity:1}
+100%{transform:translate(0,-30px) rotate(0deg) scale(.9);opacity:0}
+}
+@keyframes fadeText{0%{opacity:0}12%{opacity:1}86%{opacity:1}100%{opacity:0}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+</style>
+<rect class="bg" width="1000" height="300"/>
+<g class="float"><path class="deco" d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" transform="translate(40,30) rotate(-12)"/></g>
+<g class="float" style="animation-delay:-2s"><path class="deco" d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" transform="translate(900,200) rotate(15) scale(1.2)"/></g>
+<g class="float" style="animation-delay:-3.5s"><path class="deco" d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" transform="translate(70,215) rotate(8) scale(.8)"/></g>
+<g class="float" style="animation-delay:-1s"><path class="deco" d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" transform="translate(880,25) rotate(-8) scale(.7)"/></g>
+<text class="hey" x="500.0" y="62" text-anchor="middle">Hey! I am</text>
+<g class="tile" style="--dx:327px;--dy:132px;--r:-163deg;animation-delay:0.0s" transform="translate(73.0,92)">
+<g class="inner" style="--dx:327px;--dy:132px;--r:-163deg;animation-delay:0.0s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#3b73bd" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">N</text>
+</g></g>
+<g class="tile" style="--dx:-437px;--dy:-249px;--r:-91deg;animation-delay:0.25s" transform="translate(135.0,92)">
+<g class="inner" style="--dx:-437px;--dy:-249px;--r:-91deg;animation-delay:0.25s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#4a86d4" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">I</text>
+</g></g>
+<g class="tile" style="--dx:-294px;--dy:227px;--r:-165deg;animation-delay:0.5s" transform="translate(197.0,92)">
+<g class="inner" style="--dx:-294px;--dy:227px;--r:-165deg;animation-delay:0.5s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#2f5f9e" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">T</text>
+</g></g>
+<g class="tile" style="--dx:-296px;--dy:135px;--r:89deg;animation-delay:0.75s" transform="translate(259.0,92)">
+<g class="inner" style="--dx:-296px;--dy:135px;--r:89deg;animation-delay:0.75s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#5b9be6" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">H</text>
+</g></g>
+<g class="tile" style="--dx:-364px;--dy:-221px;--r:-175deg;animation-delay:1.0s" transform="translate(321.0,92)">
+<g class="inner" style="--dx:-364px;--dy:-221px;--r:-175deg;animation-delay:1.0s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#3b73bd" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">Y</text>
+</g></g>
+<g class="tile" style="--dx:-273px;--dy:-194px;--r:14deg;animation-delay:1.25s" transform="translate(383.0,92)">
+<g class="inner" style="--dx:-273px;--dy:-194px;--r:14deg;animation-delay:1.25s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#4a86d4" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">A</text>
+</g></g>
+<g class="tile" style="--dx:-310px;--dy:166px;--r:-148deg;animation-delay:1.5s" transform="translate(445.0,92)">
+<g class="inner" style="--dx:-310px;--dy:166px;--r:-148deg;animation-delay:1.5s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#2f5f9e" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">S</text>
+</g></g>
+<g class="tile" style="--dx:-440px;--dy:-260px;--r:164deg;animation-delay:1.75s" transform="translate(507.0,92)">
+<g class="inner" style="--dx:-440px;--dy:-260px;--r:164deg;animation-delay:1.75s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#5b9be6" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">H</text>
+</g></g>
+<g class="tile" style="--dx:-280px;--dy:-247px;--r:148deg;animation-delay:2.0s" transform="translate(569.0,92)">
+<g class="inner" style="--dx:-280px;--dy:-247px;--r:148deg;animation-delay:2.0s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#3b73bd" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">R</text>
+</g></g>
+<g class="tile" style="--dx:410px;--dy:236px;--r:-15deg;animation-delay:2.25s" transform="translate(631.0,92)">
+<g class="inner" style="--dx:410px;--dy:236px;--r:-15deg;animation-delay:2.25s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#4a86d4" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">E</text>
+</g></g>
+<g class="tile" style="--dx:377px;--dy:-182px;--r:-159deg;animation-delay:2.5s" transform="translate(693.0,92)">
+<g class="inner" style="--dx:377px;--dy:-182px;--r:-159deg;animation-delay:2.5s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#2f5f9e" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">E</text>
+</g></g>
+<g class="tile" style="--dx:518px;--dy:207px;--r:173deg;animation-delay:2.75s" transform="translate(785.0,92)">
+<g class="inner" style="--dx:518px;--dy:207px;--r:173deg;animation-delay:2.75s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#5b9be6" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">G</text>
+</g></g>
+<g class="tile" style="--dx:397px;--dy:-150px;--r:62deg;animation-delay:3.0s" transform="translate(877.0,92)">
+<g class="inner" style="--dx:397px;--dy:-150px;--r:62deg;animation-delay:3.0s">
+<path d="M0,0 H22 a8,8 0 1 1 16,0 H60 V22 a8,8 0 1 1 0,16 V60 H0 Z" fill="#3b73bd" stroke="#ffffff" stroke-width="2" transform="scale(0.8333)"/>
+<text x="25.0" y="33.3" text-anchor="middle" class="letter">V</text>
+</g></g>
+<text class="sub" x="500.0" y="205" text-anchor="middle">AI &amp; Data Science Undergraduate</text>
+<text class="sub2" x="500.0" y="240" text-anchor="middle">Aspiring Data Analyst  ·  Machine Learning Enthusiast</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo2NTUzODUyMi1hNWEzLTQ0OTUtYmVlMy02Yjc4MmRlODUzODUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaHkQ3cMEbm/YDMQhlyX32fgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0MDE3ZGViNC02MmQ5LTQ3N2YtODgxNS1kNWQyOTkzZDg4YThscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoDmAZPfZAZy1fN07dHgINOgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggnwJJiTEv5DRyuEYCFUBqlkY3ug8I8xJAXpC6xwnWBe2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaN8d0IkNHSJrxOUjkFS8RK0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIHz1i2jLJlznSu+OSxJT9of2JAGOY/pj8M3BPGTa3/hBZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GR5vZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjY1NTM4NTIyLWE1YTMtNDQ5NS1iZWUzLTZiNzgyZGU4NTM4NS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmE3MDk2YWZkLTVkMTgtNDJmMS04ZTM4LWVjNWExMGNkNzJjYnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCfAkmJMS/kNHK4RgIVQGqWRje6DwjzEkBekLrHCdYF7aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggB7Q6xgQxpGAdk/wLrr775KUvepAUhmvYxrHNYcP8mmaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggp0JRhBqd/fL7ZMcuBKhUD4CI53fRLbljsVvjSbp9ZJp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJwrQa2iqmYLm0dzrJ9dg0FvzYZ2yadbmF6XsxN4inpZppiKvWmC4rRFoptECfqawstFZCuOsExFIssovalUQ8w=</c2pa:manifest></metadata></svg>
